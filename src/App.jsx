@@ -7,6 +7,7 @@ import Work from "./Components/Work";
 import You from "./Components/You";
 import Using from "./Components/Using";
 import Join from "./Components/Join";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <You />
       <Using />
       <Join />
+      <Footer />
     </div>
   );
 };
