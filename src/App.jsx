@@ -5,6 +5,7 @@ import Details from "./Components/Details";
 import Features from "./Components/Features";
 import Work from "./Components/Work";
 import You from "./Components/You";
+import Using from "./Components/Using";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Features />
       <Work />
       <You />
+      <Using />
     </div>
   );
 };

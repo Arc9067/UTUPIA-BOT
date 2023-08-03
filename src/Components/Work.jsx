@@ -6,7 +6,7 @@ import join from "../assets/join.svg";
 
 const Work = () => {
   return (
-    <section className="pt-14 md:pt-52 pb-14 w-full relative bg-[#FF8226] text-white">
+    <section className="pt-14 md:pt-32 pb-14 w-full relative bg-[#FF8226] text-white">
       <div className="container gap-16 grid grid-cols-1 lg:grid-cols-2 justify-between items-center">
         <article className="">
           <h1 className="text-white text-5xl font-bold leading-[67.20px] tracking-wide">
