@@ -1,16 +1,19 @@
 import React from "react";
 import heroSpahe from "../assets/bottom-shape.svg";
+import heroShape from "../assets/hero-shape.svg";
+import Shape from "../assets/hero-shape.svg";
 import Robot from "../assets/robot.svg";
 
 const Features = () => {
   return (
-    <section className="pt-36 md:pt-52 pb-14 w-full relative">
+    <section className="pt-36 md:pt-52 w-full relative">
       <img
         src={heroSpahe}
         alt=""
         className="absolute top-0 w-full pointer-events-none"
       />
-      <img src={Robot} alt="" className="absolute bottom-0 hidden md:block" />
+
+      <img src={Robot} alt="" className="absolute bottom-32 hidden md:block" />
       <div className="container gap-16 flex flex-col justify-center items-center">
         <h1 className="text-black text-center text-5xl font-bold leading-[67.20px] tracking-wide">
           A Short List of Features
@@ -158,6 +161,11 @@ const Features = () => {
           </article>
         </div>
       </div>
+      <img
+        src={heroShape}
+        alt=""
+        className=" bottom-0 mt-36 w-full pointer-events-none"
+      />
     </section>
   );
 };
