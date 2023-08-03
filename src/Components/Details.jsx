@@ -14,7 +14,7 @@ const Details = () => {
           a rapid 1ms response time.
         </p>
         <div className=" justify-center items-center gap-[25px] grid grid-cols-1 lg:grid-cols-3">
-          <div className=" self-stretch px-[25px] py-8 bg-white rounded-xl justify-center items-start gap-2.5 flex">
+          <div className=" self-stretch px-[25px] py-8 bg-white rounded-xl  items-start gap-2.5 flex">
             <div className="flex-col justify-start items-start gap-6 inline-flex">
               <div className="text-orange-500 text-[32px] font-bold">
                 Buy & Sell
